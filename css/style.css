@@ -41,14 +41,9 @@ a{
     background-size: cover;
     background-position: center;
     border-radius: 12px;
+    position: relative;
 }
 
-.layover{
-    width: 100%;
-    height: 100%;
-    background-color: rgba(0,0,0,0.2);
-    border-radius: 12px;
-}
 
 #jumbo-title{
     padding-top: 410px;
@@ -67,14 +62,22 @@ a{
     padding-right: 700px;
 }
 
+.layover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 12px;
+    position: absolute;
+    bottom: 0px;
+}
 /* section-title  */
 .section-title{
     margin-top: 40px;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
 }
 
 .section-title div:first-child{
-    font-size: 55px;
+    font-size: 50px;
     font-weight: 700;
     font-family: 'Roboto', Arial;
 }
@@ -84,15 +87,28 @@ a{
     font-size: 20px;
 }
 
+/* layout  */
 .side{
     float: left;
     width: 20%;
+}
+
+.image{
+    height: 250px;
+    position: relative;
 }
 
 .center{
     float: left;
     margin: 0px 1.5%;
     width: 57%;
+}
+
+.box img{
+    height: 100%;
+    width: 100%;
+    border-radius: 12px;
+    object-fit: cover;
 }
 
 .box::after{
@@ -106,6 +122,22 @@ a{
     margin-bottom: 10px;
 }
 
+.text-title{
+    font-size: 21px;
+    font-weight: 500;
+    padding: 30px 0px 15px 0px;
+}
+
+.text-body{
+    font-size: 21px;
+    color: rgb(146, 145, 145);
+}
+
+
+
+
+
+/* footer  */
 footer{
     margin-bottom: 50px;
 }
@@ -114,20 +146,8 @@ footer{
 
 /* ***** DEBUG ***** */
 
-.debug .row, .debug .image, .debug .text {
-    background-color: lightblue;
-}
-
-.debug .box{
-    background-color: dodgerblue;
-}
-
 .debug .section-title{
     height: 100px;
-}
-
-.debug .image{
-    height: 200px;
 }
 
 .debug .text{
