@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    width: 80%;
+    margin: auto;
+}
+
+header{
+    margin-top: 30px;
+}
+
+.jumbotron{
+    margin-top: 40px;
+}
+
+.section-title{
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.side{
+    float: left;
+    width: 20%;
+}
+
+.center{
+    float: left;
+    margin: 0px 1.5%;
+    width: 57%;
+}
+
+.box::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.box{
+    padding-bottom: 20px;
+    margin-bottom: 10px;
+}
+
+footer{
+    margin-bottom: 50px;
+}
+
+
+
+/* ***** DEBUG ***** */
+
+.debug header{
+    background-color: violet;
+    height: 190px;
+}
+
+.debug .jumbotron{
+    background-color: khaki;
+    height: 650px;
+}
+
+.debug .row, .debug .image, .debug .text {
+    background-color: lightblue;
+}
+
+.debug .box{
+    background-color: dodgerblue;
+}
+
+.debug .section-title{
+    height: 100px;
+}
+
+.debug .image{
+    height: 200px;
+}
+
+.debug .text{
+    height: 450px;
+}
+
+.debug footer{
+    background-color: darkviolet;
+    height: 80px;
+}
+
+
+
