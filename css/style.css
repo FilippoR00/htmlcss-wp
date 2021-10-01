@@ -4,17 +4,33 @@
     box-sizing: border-box;
 }
 
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 .container{
     width: 80%;
     margin: auto;
 }
 
-header{
-    margin-top: 30px;
+/* header  */
+#logo img{
+    height: 90px;
+    padding-right: 25px;
+    border-right: 1px solid lightgrey;
 }
 
-.jumbotron{
-    margin-top: 40px;
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 50px 0px;
+}
+
+a{
+    color: grey;
+    text-decoration: none;
+    font-size: 22px;
+    padding-right: 20px;
 }
 
 .section-title{
@@ -51,11 +67,6 @@ footer{
 
 
 /* ***** DEBUG ***** */
-
-.debug header{
-    background-color: violet;
-    height: 190px;
-}
 
 .debug .jumbotron{
     background-color: khaki;
