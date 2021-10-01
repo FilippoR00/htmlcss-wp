@@ -33,6 +33,41 @@ a{
     padding-right: 20px;
 }
 
+/* jumbotron */
+.jumbotron{
+    height: 650px;
+    width: 100%;
+    background-image: url(../img/banner.jpg);
+    background-size: cover;
+    background-position: center;
+    border-radius: 12px;
+}
+
+.layover{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.2);
+    border-radius: 12px;
+}
+
+#jumbo-title{
+    padding-top: 410px;
+    color: white;
+    font-size: 40px;
+    font-weight: 400;
+    padding-left: 65px;
+    padding-right: 750px;
+}
+
+#jumbo-subtitle{
+    color: white;
+    font-size: 22px;
+    padding-left: 65px;
+    font-weight: 300;
+    padding-right: 750px;
+}
+
+
 .section-title{
     margin-top: 40px;
     margin-bottom: 30px;
@@ -67,11 +102,6 @@ footer{
 
 
 /* ***** DEBUG ***** */
-
-.debug .jumbotron{
-    background-color: khaki;
-    height: 650px;
-}
 
 .debug .row, .debug .image, .debug .text {
     background-color: lightblue;
