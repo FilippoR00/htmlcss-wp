@@ -27,7 +27,7 @@ nav ul li{
 }
 
 a{
-    color: grey;
+    color: rgb(146, 145, 145);
     text-decoration: none;
     font-size: 21px;
     padding-right: 12px;
@@ -77,13 +77,13 @@ a{
 }
 
 .section-title div:first-child{
-    font-size: 50px;
-    font-weight: 700;
+    font-size: 55px;
+    font-weight: 800;
     font-family: 'Roboto', Arial;
 }
 
 .section-title div:last-child{
-    color: grey;
+    color: rgb(146, 145, 145);
     font-size: 20px;
 }
 
@@ -133,31 +133,17 @@ a{
     color: rgb(146, 145, 145);
 }
 
-
-
-
-
 /* footer  */
 footer{
-    margin-bottom: 50px;
+    font-size: 21px;
+    text-align: center;
+    padding: 25px;
 }
 
-
-
-/* ***** DEBUG ***** */
-
-.debug .section-title{
-    height: 100px;
+#heart{
+    color: red;
 }
 
-.debug .text{
-    height: 450px;
-}
-
-.debug footer{
-    background-color: darkviolet;
-    height: 80px;
-}
 
 
 
